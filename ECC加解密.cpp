@@ -77,7 +77,7 @@ int get_order(int x0, int y0, int a, int b, int p) {
     }
 }
 
-// 计算 nP
+// 计算 nP的值 
 pair<int, int> calculate_np(int x, int y, int n, int a, int p) {
     pair<int, int> result = {x, y};
     for (int i = 1; i < n; i++) {
